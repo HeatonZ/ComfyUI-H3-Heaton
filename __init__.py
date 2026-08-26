@@ -6,7 +6,7 @@ log=logging.getLogger("HT")
 NODE_CLASS_MAPPINGS={}
 NODE_DISPLAY_NAME_MAPPINGS={}
 
-for _name in ("ht_loader","ht_sigma","ht_turbo","ht_avlatent","ht_ref2v","ht_mcchain","ht_qa"):
+for _name in ("ht_loader","ht_sigma","ht_turbo","ht_avlatent","ht_ref2v","ht_mcchain","ht_qa","ht_audiorefine","ht_i2v"):
     try:
         _module=importlib.import_module("."+_name, __name__+".nodes")
         NODE_CLASS_MAPPINGS.update(getattr(_module,"NODE_CLASS_MAPPINGS",{}))

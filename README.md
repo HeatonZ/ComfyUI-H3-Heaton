@@ -12,6 +12,7 @@ MiniMax H3 的纯净自用节点包。包内业务节点统一使用 `HT_H3_BUND
 | HT · AV Latent Separate / Concat | `ComfyUI-LTXVideo` AV 分合语义与 `ComfyUI-PT_H3ConcatAVLatent` |
 | HT · AV Latent Upscale 3D | `Comfyui_Minimax_h3_latent_Upscaler` 的 `MinimaxH3LatentUpscaler3D` 几何 3D 放大路径 |
 | HT · MC Context / Trim / SaveLatent / LoadLatent | `ComfyUI-H3-Motion-Context` 四节点语义 |
+| HT · H3 Audio Refine Mask | `Adudeguyman/ComfyUI-H3-AudioRefine` 的逐流噪声掩码核心（视频冻结/音频重精修，接原生采样器 denoise<1.0；未吸收其 KV-cache 补丁与 all-in-one 采样器） |
 | HT · QA Video Check / Latent Probe | H3 出片前自检；无第三方等价节点 |
 
 ## 兼容层
